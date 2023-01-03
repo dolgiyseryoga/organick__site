@@ -968,10 +968,24 @@ h4 {
     justify-content: center;
     gap: 20px;
   }
-}
-@media (max-width: 1200px) {
-}
-@media (max-width: 1180px) {
+  .friendly-block {
+    flex-direction: column;
+  }
+  .friendly-block-right {
+    position: static;
+    border-radius: 30px;
+    padding: 40px 60px 55px 60px;
+    width: auto;
+  }
+  .friendly-block-left {
+    width: 100%;
+  }
+  .friendly-block-left img {
+    width: 100%;
+  }
+  .friendly-block-right-text {
+    padding-right: auto;
+  }
   .friendly-block-right h2 {
     padding-bottom: 0px;
   }
@@ -1149,24 +1163,6 @@ h4 {
   }
   .footer-block-left h4:last-child {
     font-size: 14px;
-  }
-  .friendly-block {
-    flex-direction: column;
-  }
-  .friendly-block-right {
-    position: static;
-    border-radius: 30px;
-    padding: 40px 60px 55px 60px;
-    width: auto;
-  }
-  .friendly-block-left {
-    width: 100%;
-  }
-  .friendly-block-left img {
-    width: 100%;
-  }
-  .friendly-block-right-text {
-    padding-right: auto;
   }
 }
 @media (max-width: 768px) {
