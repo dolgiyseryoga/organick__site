@@ -1018,7 +1018,8 @@ h4 {
     width: 100%;
   }
   .nav_list {
-    visibility: hidden;
+    /*visibility: hidden;*/
+    display: none;
   }
   .nav_shopping {
     visibility: hidden;
