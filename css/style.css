@@ -1317,6 +1317,9 @@ h4 {
   .subscribe-block-right input {
     padding: 15px 35px 15px 20px;
   }
+  .nav_shopping {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 350px) {
   .reviews {
